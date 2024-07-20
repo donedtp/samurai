@@ -1,0 +1,78 @@
+#basic p {
+  font-weight: bold;
+}
+.flex-area,.flex-button{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-area label:nth-child(1),.flex-area label:nth-child(3){
+  width: 60%;
+  padding: 5px;
+}
+.flex-button label{
+  order: 2;
+  padding-left: 10px;
+}
+.flex-area label:nth-child(2),.flex-area label:nth-child(4){
+  width: 40%;
+  padding: 5px;
+}
+.journal-area{
+  display: flex;
+  flex-wrap: wrap;
+}
+.journal-child{
+  width: 33.3333;
+  padding: 15px;
+}
+.journal-child a{
+  width: 100%;
+  background: #eee;
+  position: relative;
+}
+.journal-child a::before{
+  content: "";
+  padding-top: 100%;
+  display: none;
+
+}
+textarea{
+  height: 5em;
+}
+.journal-child a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+background-color: rgb(0, 0, 0, 0.1);
+z-index: 5;
+box-sizing: border-box;
+}
+.journal-child a .journal-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+}
+.journal-child a .journal-tex h4 {
+  padding: 0px;
+  margin: 0px;
+}
+.journal-child a img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+  display: none!in;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>タイトルです</title>
+    <meta name="description" content="説明文です">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="descendant-elements.css">
+  </head>
+  <body>
+
+    <div id="parenta">
+      <p class="child">子要素の段落です</p>
+      <div class="child">
+        <p id="grandchild">孫要素の段落です</p>
+      </div>
+    </div>
+
+    <div class="journal-child">
+      <a href="<?php echo get_post_meta($post->ID , 'syndication_permalink' ,true); ?>" target="_blank">
+        <div class="journal-text">
+          <div class='journal-date'><?php the_date('F j, Y'); ?></div>
+          <h4><?php the_title(); ?></h4>
+          →
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
+</html>
