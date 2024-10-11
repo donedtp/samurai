@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta name="description" content="概要文を120文字程度" />
+<meta name="keywords" content="キーワード①,キーワード②" />
+<title>Starter Template for Bootstrap</title>
+<!-- TemplateEndEditable -->
+<script src="https://kit.fontawesome.com/49a5306b92.js" crossorigin="anonymous"></script> 
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="../css/basic.css" rel="stylesheet">
+<link href="../css/common.css" rel="stylesheet">
+<link href="../css/option.css" rel="stylesheet">
+<!-- ページ読み込み時のTransition停止 --> 
+<script>console.log("prevent Google Chrome css Transition");</script>
+<!-- TemplateParam name="id" type="text" value="home" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body id="@@(id)@@">
+<div class="wrapper">
+  <header>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-12">
+          <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-button"><span></span></label>
+            <div class="drawer-menu">
+              <ul>
+                <li><a href="#"><span>ブログトップ</span></a></li>
+                <li class="menu-item-has-children"><a href="#"><span>記事一覧</span></a>
+                  <ul>
+                    <li><a href="#"><span>ブログトップ</span></a></li>
+                    <li><a href="#"><span>画像一覧</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><span>画像一覧</span></a></li>
+              </ul>
+            </div>
+            <label for="menu-toggle" class="menu-background"></label>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="section-header">
+    <div class="hed-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>BEHIND THE SCENES OF A MULTI-HOBBY LIFE</h1>
+            <h2>多趣味ライフの舞台裏</h2>
+            <p>趣味が人生にどのような影響を与えているか気になりませんか？<br>
+              新しい挑戦に立ち向かう男のストーリーが展開。<br>
+              舞台裏から趣味がもたらす喜び、成長、<br>
+              そして意外な発見を体験しましょう。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main> <!-- TemplateBeginEditable name="main" -->
+    <section id="section-header">
+      <div class="container">
+        <h1>Album example</h1>
+        <h2>Album example</h2>
+        <p>Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+      </div>
+    </section>
+    <article>
+      <section id="section-01">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="top-news">
+                <dl>
+                  <dt>20200101</dt>
+                  <dd>お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。お知らせの内容が入ります。<em>…NEW</em></dd>
+                </dl>
+                <dl>
+                  <dt>20200102</dt>
+                  <dd>新着情報の内容が入ります。新着情報の内容が入ります。</dd>
+                </dl>
+                <dl>
+                  <dt>20200101</dt>
+                  <dd>お知らせの内容が入ります。お知らせの内容が入ります。</dd>
+                </dl>
+                <dl>
+                  <dt>20200102</dt>
+                  <dd>新着情報の内容が入ります。新着情報の内容が入ります。</dd>
+                </dl>
+                <dl>
+                  <dt>20200101</dt>
+                  <dd>お知らせの内容が入ります。お知らせの内容が入ります。</dd>
+                </dl>
+                <dl>
+                  <dt>20200102</dt>
+                  <dd>新着情報の内容が入ります。新着情報の内容が入ります。</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-02">
+        <div class="container">
+          <div class="row">
+            <div class="col-8">.col-md-8</div>
+            <div class="col-4">.col-md-4</div>
+          </div>
+        </div>
+      </section>
+      <section id="section-03">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <picture>
+                <source srcset="path/to/md.png" media="(min-width: 768px)">
+                <img src="path/to/sm.png"> </picture>
+              <div role="form">メールフォーム</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <section id="section-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">.col-md-8</div>
+          <div class="col-md-4">.col-md-4</div>
+        </div>
+      </div>
+    </section>
+    <!-- TemplateEndEditable --> </main>
+  <!-- /.container -->
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <nav class="foot-nav">
+          <ul>
+            <li><a href="#"><span>ブログトップ</span></a></li>
+            <li><a href="#"><span>記事一覧</span></a></li>
+            <li><a href="#"><span>画像一覧</span></a></li>
+          </ul>
+        </nav>
+        <div id="copy" class="text-center">&copy; BEHIND THE SCENES OF A MULTI-HOBBY LIFE All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+</div>
+<p id="page-top"><a href="#"><i class="fa-solid fa-circle-up"></i></a></p>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script src="../js/jquery.min.js" defer></script> 
+<script src="../js/bootstrap.bundle.min.js" defer></script> 
+<script src="../js/effect.js" defer></script>
+</body>
+</html>
